@@ -3,6 +3,7 @@ let username = prompt("아이디를 입력하세요");
 let roomNum = prompt("채팅방 번호를 입력하세요");
 
 document.querySelector("#username").innerHTML = username;
+document.querySelector("#roomNum").innerHTML = roomNum;
 
 // SSE 연결하기
 const eventSource = new EventSource(

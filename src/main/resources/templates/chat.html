@@ -11,26 +11,24 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
-
     <div class="row">
-
       <div class="col-sm-12">
-
-
         <div id="user_chat_data" class="user_chat_data">
           <div class="profile_name">
-            &nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/profile.png" class="mr-3 rounded-circle"> &nbsp;&nbsp;
-          <span id="username"></span>
+            <img src="img/profile.png" class="mr-3 rounded-circle">
+            <span id="username"></span>
+            <span id="roomNum"></span>
           </div>
-
+          <!-- 말풍선 -->
           <div class="container-fluid chat_section" id="chat-box">
-          </div>
 
+          </div>
+          <!-- 입력창 -->
           <div class="type_msg">
             <div class="input_msg_write">
               <input id="chat-outgoing-msg" type="text" class="write_msg" placeholder="Type a message" />

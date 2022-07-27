@@ -5,7 +5,6 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 
 import java.time.LocalDateTime;
@@ -42,4 +41,5 @@ public class ChatController {
         chat.setCreatedAt(LocalDateTime.now());
         return chatRepository.save(chat); // Object를 반환하면 자동으로 JSON으로 변환됨
     }
+
 }

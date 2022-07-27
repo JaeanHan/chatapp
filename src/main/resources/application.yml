@@ -4,4 +4,10 @@ spring:
       host: localhost
       port: 27017
       database: chatdb
+  mvc:
+    static-path-pattern: /static/**
+#    view:
+#      prefix: /chat-front/
+#      suffix: .html
+
 

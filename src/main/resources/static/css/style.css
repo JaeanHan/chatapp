@@ -114,3 +114,7 @@ body {
   height: 516px;
   overflow-y: auto;
 }
+
+#roomNum {
+  opacity: 0.5;
+}
