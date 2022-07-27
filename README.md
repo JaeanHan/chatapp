@@ -1,5 +1,8 @@
 # chatapp
 
+![2022-07-28 02;24;23](https://user-images.githubusercontent.com/65104605/181310705-53560d5b-607f-4446-a4a7-27c774b34f43.gif)
+
+
 ## 세팅 : spring reactive web, mongoDB, spring WebFlux <br/>
 
 #### Spring Reactive Web Project <br/>
